@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=128&id=123740&format=png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="app">
+      <h1>Quiz App</h1>
+      <h3>Total Questions are 10</h3>
+      <div class="quiz">
+        <h2 id="question">Question Goes Here</h2>
+        <div id="answer-buttons">
+          <!-- Answer buttons will be added dynamically -->
+        </div>
+        <div id="nextbtn-container">
+          <button id="nextbtn" style="display: none">Next</button>
+        </div>
+      </div>
+      <div id="score-container">
+        <p>Your score: <span id="score">0</span></p>
+      </div>
+      <div id="restartbtn-container">
+        <button id="restartbtn" style="display: none">Restart Quiz</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
